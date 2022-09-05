@@ -4,15 +4,18 @@
 #### Ciphers
 - XOR
 - RC4
-- ChaCha
-- [eSTREAM Portfolio](https://en.wikipedia.org/wiki/ESTREAM#eSTREAM_portfolio)  
-  Software:
+- [Salsa20](Symmetric%20Cryptography/Stream%20Ciphers/Ciphers/Salsa20/README.md)
+  - [ChaCha](Symmetric%20Cryptography/Stream%20Ciphers/Ciphers/Salsa20/ChaCha/README.md)
+- Trivium
+
+[eSTREAM portfolio](https://en.wikipedia.org/wiki/ESTREAM#eSTREAM_portfolio):
+- Software
   - HC-128
   - Rabbit
   - Salsa20
   - SOSEMANUK
   
-  Hardware:
+- Hardware
   - Grain
   - MICKEY
   - Trivium

@@ -1,1 +1,6 @@
-*.user.*
+/private
+*.private
+*.private.*
+
+*.bak
+*.ec
