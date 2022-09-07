@@ -41,10 +41,13 @@
   - XXTEA
 
 ## Asymmetric cryptography
-### Ciphers
-- RSA
+- Integer factorization
+  - RSA
+- Discrete logarithm
+  - DH
+- Lattice
 
-## [Hash Functions](Hash%20Functions/README.md)
+## [Hash functions](Hash%20Functions/README.md)
 ### Checksums
 - Cyclic redundancy checks
   - CRC-16
