@@ -1,6 +1,14 @@
 # Cryptology
 ![](images/Components.png)
 
+- [Authenticated Encryption](Authenticated%20Encryption.md)
+
+## Random Number Generation
+Random number generators (RNG):
+- True Random Number Generators (TRNG)
+- Pseudorandom Number Generators (PRNG)
+  - Cryptographically Secure Pseudorandom Number Generator (CSPRNG)
+
 ## Symmetric cryptography
 ### Stream ciphers
 #### Ciphers
@@ -24,7 +32,7 @@
 
 ### Block ciphers
 #### Ciphers
-- AES
+- AES (Rijndael)
 - Blowfish
   - Twofish
   - Threefish
@@ -50,6 +58,8 @@
 - Lattice
 
 ## [Hash functions](Hash%20Functions/README.md)
+- Universal Hashing
+
 ### Checksums
 - Cyclic redundancy checks
   - CRC-16
@@ -74,11 +84,15 @@
     - SHA-256
     - SHA-384
     - SHA-512
-  - SHA-3
+  - SHA-3 (Keccak)
 
 ### Keyed cryptographic hash functions
+- CBC-MAC
 - HMAC
 - MD6
+- One-key MAC
+  - OMAC1 (CMAC)
+  - OMAC2
 
 ## Crytanalysis
 ### Attack models
