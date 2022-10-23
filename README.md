@@ -14,8 +14,8 @@ Random number generators (RNG):
 #### Ciphers
 - XOR
 - RC4
-- [Salsa20](Symmetric%20Cryptography/Stream%20Ciphers/Ciphers/Salsa20/README.md)
-  - [ChaCha](Symmetric%20Cryptography/Stream%20Ciphers/Ciphers/Salsa20/ChaCha/README.md)
+- [Salsa20](Symmetric/Stream/Salsa20/README.md)
+  - [ChaCha](Symmetric/Stream/Salsa20/ChaCha/README.md)
 - Trivium
 
 [eSTREAM portfolio](https://en.wikipedia.org/wiki/ESTREAM#eSTREAM_portfolio):
