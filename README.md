@@ -52,7 +52,7 @@ Random number generators (RNG):
 
 ## Asymmetric cryptography
 - Integer factorization
-  - RSA
+  - [RSA (Rivest–Shamir–Adleman)](Asymmetric/RSA/README.md)
 - Discrete logarithm
   - DH
 - Lattice
