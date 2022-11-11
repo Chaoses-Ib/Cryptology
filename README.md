@@ -1,6 +1,7 @@
 # Cryptology
 ![](images/Components.png)
 
+- [Kerckhoffs's Principle](Kerckhoffs's%20Principle.md)
 - [Authenticated Encryption](Authenticated%20Encryption.md)
 
 ## Random Number Generation
