@@ -1,6 +1,7 @@
 # Cryptology
 ![](images/Components.png)
 
+- [Information-theoretic Security](Information-theoretic%20Security.md)
 - [Kerckhoffs's Principle](Kerckhoffs's%20Principle.md)
 - [Authenticated Encryption](Authenticated%20Encryption.md)
 
