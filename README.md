@@ -88,7 +88,7 @@ Random number generators (RNG):
     - SHA-512
   - SHA-3 (Keccak)
 
-### Keyed cryptographic hash functions
+### [Keyed cryptographic hash functions](Hash%20Functions/Keyed/README.md)
 - CBC-MAC
 - HMAC
 - MD6
