@@ -1,8 +1,8 @@
 # Cryptology
 ![](images/Components.png)
 
-- [Information-theoretic Security](Information-theoretic%20Security.md)
 - [Kerckhoffs's Principle](Kerckhoffs's%20Principle.md)
+- [Security Level](Security%20Level.md)
 - [Authenticated Encryption](Authenticated%20Encryption.md)
 
 ## Random Number Generation
