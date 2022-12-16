@@ -55,6 +55,7 @@ Random number generators (RNG):
 ## Asymmetric cryptography
 - Integer factorization
   - [RSA (Rivest–Shamir–Adleman)](Asymmetric/RSA/README.md)
+    - [PKCS #1](Asymmetric/RSA/PKCS%20%231.md)
 - Discrete logarithm
   - DH
 - Lattice
