@@ -5,11 +5,11 @@
 - [Security Level](Security%20Level.md)
 - [Authenticated Encryption](Authenticated%20Encryption.md)
 
-## Random Number Generation
-Random number generators (RNG):
-- True Random Number Generators (TRNG)
-- Pseudorandom Number Generators (PRNG)
-  - Cryptographically Secure Pseudorandom Number Generator (CSPRNG)
+## [Random Number Generation](Random/README.md)
+- [True Random Number Generators](Random/True/README.md)
+- Pseudorandom Number Generators
+  - [Linear Feedback Shift Registers](Random/Pseudo/Linear%20Feedback%20Shift%20Registers.md)
+  - Cryptographically Secure Pseudorandom Number Generator
 
 ## Symmetric cryptography
 ### Stream ciphers
