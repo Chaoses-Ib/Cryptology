@@ -1,4 +1,6 @@
 # Random Number Generation
+[Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation)
+
 Types:
 - True random number generator (TRNG)
 - Pseudorandom number generator (PRNG)

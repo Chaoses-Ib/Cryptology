@@ -7,8 +7,9 @@
 
 ## [Random Number Generation](Random/README.md)
 - [True Random Number Generators](Random/True/README.md)
-- Pseudorandom Number Generators
-  - [Linear Feedback Shift Registers](Random/Pseudo/Linear%20Feedback%20Shift%20Registers.md)
+- [Pseudorandom Number Generators](Random/Pseudo/README.md)
+  - [Linear Congruential Generator](Random/Pseudo/Linear%20Congruential%20Generator.md)
+  - [Linear Feedback Shift Registers](Random/Pseudo/Linear%20Feedback%20Shift%20Registers.md) ([Python](Random/Pseudo/Linear%20Feedback%20Shift%20Registers.ipynb))
   - Cryptographically Secure Pseudorandom Number Generator
 
 ## Symmetric cryptography
