@@ -12,8 +12,8 @@
   - [Linear Feedback Shift Registers](Random/Pseudo/Linear%20Feedback%20Shift%20Registers.md) ([Python](Random/Pseudo/Linear%20Feedback%20Shift%20Registers.ipynb))
   - Cryptographically Secure Pseudorandom Number Generator
 
-## Symmetric cryptography
-### Stream ciphers
+## Symmetric Cryptography
+### Stream Ciphers
 #### Ciphers
 - XOR
 - RC4
@@ -33,7 +33,7 @@
   - MICKEY
   - Trivium
 
-### Block ciphers
+### Block Ciphers
 #### Ciphers
 - AES (Rijndael)
 - Blowfish
@@ -53,7 +53,7 @@
   - XTEA
   - XXTEA
 
-## Asymmetric cryptography
+## Asymmetric Cryptography
 - Integer factorization
   - [RSA (Rivest–Shamir–Adleman)](Asymmetric/RSA/README.md)
     - [PKCS #1](Asymmetric/RSA/PKCS%20%231.md)
@@ -61,7 +61,7 @@
   - DH
 - Lattice
 
-## [Hash functions](Hash%20Functions/README.md)
+## [Hash Functions](Hash/README.md)
 - Universal Hashing
 
 ### Checksums
@@ -71,26 +71,26 @@
   - CRC-64
 - Internet checksum
 
-### Non-cryptographic hash functions
+### Non-cryptographic Hash Functions
 - xxHash
 
-### Unkeyed cryptographic hash functions
-- [Message-Digest](Hash%20Functions/Message-Digest/README.md)
+### Unkeyed Cryptographic Hash Functions
+- [Message-Digest](Hash/Message-Digest/README.md)
   - MD2
   - MD4
-  - [MD5](Hash%20Functions/Message-Digest/MD5.md)
+  - [MD5](Hash/Message-Digest/MD5.md)
   - MD6
 - Secure Hash Algorithm
   - SHA-0
   - SHA-1
-  - SHA-2
+  - [SHA-2](Hash/Secure/SHA-2.md)
     - SHA-224
     - SHA-256
     - SHA-384
     - SHA-512
   - SHA-3 (Keccak)
 
-### [Keyed cryptographic hash functions](Hash%20Functions/Keyed/README.md)
+### [Keyed Cryptographic Hash Functions](Hash/Keyed/README.md)
 - CBC-MAC
 - HMAC
 - MD6
