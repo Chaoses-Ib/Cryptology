@@ -71,7 +71,8 @@
   - CRC-64
 - Internet checksum
 
-### Non-cryptographic Hash Functions
+### [Non-cryptographic Hash Functions](Hash/Non-cryptographic/README.md)
+- [wyhash](Hash/Non-cryptographic/wyhash.md)
 - xxHash
 
 ### Unkeyed Cryptographic Hash Functions

@@ -3,6 +3,8 @@
 
 A **hash function** is any function that can be used to map data of arbitrary size to fixed-size values.[^wiki]
 
+[SMhasher: Hash function quality and speed tests](https://github.com/rurban/smhasher/#smhasher)
+
 ## Implementations
 Python:
 - [hashlib — Secure hashes and message digests - Python3 Docs](https://docs.python.org/3/library/hashlib.html)
