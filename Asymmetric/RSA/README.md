@@ -43,6 +43,28 @@ There is no known weakness for any short or long public exponent $e$ for RSA, as
 
 The public exponent $e$ is often selected as 65537 or 3.
 
+See also [security level](../../Security%20Level.md).
+
+### Factoring
+[RSA Factoring Challenge - Wikipedia](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge)
+
+- 2015 [Factoring as a Service](https://eprint.iacr.org/2015/1000.pdf)
+  
+  > We optimize the CADO-NFS and Msieve implementations of the
+number field sieve for use on the Amazon Elastic Compute Cloud platform,
+allowing a non-expert to factor 512-bit RSA public keys in under four
+hours for $75.
+  
+  > We go on to survey the RSA key sizes used in popular
+protocols, finding hundreds or thousands of deployed 512-bit RSA keys
+in DNSSEC, HTTPS, IMAP, POP3, SMTP, DKIM, SSH, and PGP.
+
+  [512-bit RSA Keys Cracked in Four Hours for only $75 - SoylentNews](https://soylentnews.org/article.pl?sid=15/10/21/0029236)
+
+- 2020 [2048 Bit RSA Keys \[The Call of the Open Sidewalk\]](https://articles.59.ca/doku.php?id=pgpfan:2048)
+
+  > Currently (2020) the largest RSA key ever actually broken is 829 bits long. Using a random cost off the net for AWS compute capacity the cost works out to around one million USD.
+
 ## Proof of correctness
 [^understand]
 

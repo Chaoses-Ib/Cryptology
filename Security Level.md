@@ -18,5 +18,12 @@ Security bits | Symmetric key | Finite field/Discrete logarithm | Integer factor
 192 | AES | L=7680, N=384 | k=7680 | f=384-511
 256 | AES | L=15360, N=511 | k=15360 | f=512+
 
+[Key size - Wikipedia](https://en.wikipedia.org/wiki/Key_size)
+
+[Keylength - Cryptographic Key Length Recommendation](https://www.keylength.com/)
+
+[Your attack cost estimates are probably too low](https://www.chosenplaintext.ca/2015/12/03/attack-cost-too-low.html)
+
+
 [^wiki]: [Information-theoretic security - Wikipedia](https://en.wikipedia.org/wiki/Information-theoretic_security)
 [^level]: [Security level - Wikipedia](https://en.wikipedia.org/wiki/Security_level)
