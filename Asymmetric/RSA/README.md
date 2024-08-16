@@ -122,7 +122,9 @@ Performance:
 
 [Use cases and implementations of RSA CRT - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/19814/use-cases-and-implementations-of-rsa-crt)
 
-[Computing p and q from private key - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/11509/computing-p-and-q-from-private-key)
+Prime factor recovery:
+- [Computing p and q from private key - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/11509/computing-p-and-q-from-private-key)
+- [RustCrypto/RSA](https://github.com/RustCrypto/RSA/blob/959a7da18cb4fbab8ce477af372edc983476ef2a/src/algorithms/rsa.rs#L199-L246)
 
 [modular arithmetic - RSA: Does it worth to calculate missing CRT parameters when you have just N, E, D, P, Q? - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/101044/rsa-does-it-worth-to-calculate-missing-crt-parameters-when-you-have-just-n-e)
 
@@ -148,6 +150,7 @@ C++:
   - [Heimdal crypto library](https://web.mit.edu/freebsd/head/crypto/heimdal/doc/doxyout/hcrypto/html/)
     - [heimdal/lib/hcrypto/rsa-gmp.c](https://github.com/heimdal/heimdal/blob/master/lib/hcrypto/rsa-gmp.c)
     - CRT
+    - `gmp_rsa_generate_key()` guarantees $p>q$, and `rsa_private_calculate()` doesn't do `if (u < 0) u += p;` by default.
   - [RSA algorithm in C using the GMP library](https://gist.github.com/akosma/865b887f993de462369a04f4e81596b8)
   - [RSA using gmp](https://gist.github.com/aishraj/4010562)
 
