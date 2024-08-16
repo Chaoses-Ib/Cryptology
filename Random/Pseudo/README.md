@@ -4,3 +4,7 @@
 [List of random number generators - Wikipedia](https://en.wikipedia.org/wiki/List_of_random_number_generators)
 
 [What is the best pseudo-random number generator as of today? - Stack Overflow](https://stackoverflow.com/questions/4720822/what-is-the-best-pseudo-random-number-generator-as-of-today)
+
+## Libraries
+Rust:
+- [pumpkin: A random number generator for generating large prime numbers, suitable for cryptography.](https://github.com/zcdziura/pumpkin)

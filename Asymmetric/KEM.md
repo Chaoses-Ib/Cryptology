@@ -6,4 +6,5 @@ C++:
 - [justinfchin/CCA2\_Encryption: Public Key Cryptosystem Using KEM](https://github.com/justinfchin/CCA2_Encryption)
 
 Rust:
+- [aws\_lc\_rs::kem](https://docs.rs/aws-lc-rs/latest/aws_lc_rs/kem/index.html)
 - [RSA-KEM support - Issue #323 - RustCrypto/RSA](https://github.com/RustCrypto/RSA/issues/323)

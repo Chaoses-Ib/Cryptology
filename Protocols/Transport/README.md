@@ -32,6 +32,9 @@ C/C++:
 
 Rust:
 - [rustls: A modern TLS library in Rust](https://github.com/rustls/rustls)
+  - [BENCHMARKING.md](https://github.com/rustls/rustls/blob/main/BENCHMARKING.md)
+    - [aochagavia/rustls-bench-results](https://github.com/aochagavia/rustls-bench-results)
+    - Less memory: 69 → 13 KiB
 - [embedded-tls: An Rust TLS 1.3 implementation for embedded devices.](https://github.com/drogue-iot/embedded-tls)
 
   [Down the Yak Hole of TLS --- Drogue IoT](https://blog.drogue.io/yak-hole-of-tls/)

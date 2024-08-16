@@ -146,15 +146,13 @@ Prime factor recovery:
 
 ## Libraries
 C++:
-- GMP
+- [→GMP](https://github.com/Chaoses-Ib/ComputationalMathematics/blob/main/Arithmetic/Arbitrary-precision/README.md#c)
   - [Heimdal crypto library](https://web.mit.edu/freebsd/head/crypto/heimdal/doc/doxyout/hcrypto/html/)
     - [heimdal/lib/hcrypto/rsa-gmp.c](https://github.com/heimdal/heimdal/blob/master/lib/hcrypto/rsa-gmp.c)
     - CRT
     - `gmp_rsa_generate_key()` guarantees $p>q$, and `rsa_private_calculate()` doesn't do `if (u < 0) u += p;` by default.
   - [RSA algorithm in C using the GMP library](https://gist.github.com/akosma/865b887f993de462369a04f4e81596b8)
   - [RSA using gmp](https://gist.github.com/aishraj/4010562)
-
-  Be careful with endianness.
 
 - OpenSSL
   - [`RSA_public_encrypt`](https://docs.openssl.org/master/man3/RSA_public_encrypt/)
@@ -165,7 +163,12 @@ C++:
 
 Rust:
 - [RustCrypto/RSA: RSA implementation in pure Rust](https://github.com/RustCrypto/RSA)
+- [aws\_lc\_rs::rsa](https://docs.rs/aws-lc-rs/latest/aws_lc_rs/rsa/index.html)
 - [openssl::rsa](https://docs.rs/openssl/latest/openssl/rsa/index.html)
+- [ring::rsa](https://docs.rs/ring/latest/ring/rsa/index.html)
+  - [Add RSA key generation - Issue #219 - briansmith/ring](https://github.com/briansmith/ring/issues/219)
+  - [question about signing performance - Issue #339 - RustCrypto/RSA](https://github.com/RustCrypto/RSA/issues/339)
+  - Used by rustls
 
 ## Tools
 - [RsaCtfTool: RSA attack tool (mainly for ctf) - retrieve private key from weak public key and/or uncipher data](https://github.com/RsaCtfTool/RsaCtfTool)
