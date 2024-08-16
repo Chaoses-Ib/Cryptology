@@ -1,4 +1,4 @@
-# Cryptology
+# [Cryptology](Cryptology.md)
 ![](images/Components.png)
 
 - [Kerckhoffs's Principle](Kerckhoffs's%20Principle.md)
@@ -60,6 +60,7 @@
 - Discrete logarithm
   - DH
 - Lattice
+- [Key Encapsulation Mechanism](Asymmetric/KEM.md)
 
 ## [Hash Functions](Hash/README.md)
 - Universal Hashing

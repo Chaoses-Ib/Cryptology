@@ -1,5 +1,7 @@
 # PKCS #1
-**PKCS #1** is the first of a family of standards called Public-Key Cryptography Standards (PKCS), published by RSA Laboratories. It provides the basic definitions of and recommendations for implementing the RSA algorithm for public-key cryptography. It defines the mathematical properties of public and private keys, primitive operations for encryption and signatures, secure cryptographic schemes, and related ASN.1 syntax representations.[^wiki]
+[Wikipedia](https://en.wikipedia.org/wiki/PKCS_1)
+
+**PKCS #1** is the first of a family of standards called **Public-Key Cryptography Standards (PKCS)**, published by RSA Laboratories. It provides the basic definitions of and recommendations for implementing the RSA algorithm for public-key cryptography. It defines the mathematical properties of public and private keys, primitive operations for encryption and signatures, secure cryptographic schemes, and related ASN.1 syntax representations.[^wiki]
 
 ## Primitives
 The standard defines several basic primitives. The primitive operations provide the fundamental instructions for turning the raw mathematical formulas into computable algorithms.

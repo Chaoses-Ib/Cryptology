@@ -5,6 +5,9 @@ Given the **private key (decryption exponent, private exponent)** $d=k_{pr}$ and
 $$x=d_{k_{pr}}(y)\equiv y^d \pmod n$$
 where $x,y\in Z_n$, $e$ is the **encryption exponent (public exponent)**.[^understand]
 
+RSA 的本质是用公钥和私钥同时对一个值运算时结果不变。
+- 加密和解密对 RSA 是一样的，都只是用密钥运算。
+
 ## Key generation
 1. Choose two large primes $p$ and $q$
 2. Compute $n=p\cdot q$
@@ -42,6 +45,7 @@ There is no known weakness for any short or long public exponent $e$ for RSA, as
 - Some widely deployed RSA implementations choke on big RSA public exponents. e.g. the RSA code in Windows (CryptoAPI, used by Internet Explorer for HTTPS) insists on encoding the public exponent within a single 32-bit word; it cannot process a public key with a bigger public exponent.
 
 The public exponent $e$ is often selected as 65537 or 3.
+- $e$ 是手动选取的常值，很容易猜到，所以才要将 $(n,e)$ 用作公钥，$(n,d)$ 用作私钥。
 
 See also [security level](../../Security%20Level.md).
 
@@ -108,6 +112,60 @@ x\cdot (x^{\phi(n)})^t
 \end{align}$$
 
 $$(x^{\phi(n)})^t \cdot x \equiv x \pmod n$$
+
+## Chinese remainder theorem (CRT)
+[homomorphic encryption - Chinese Remainder Theorem and RSA - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/2575/chinese-remainder-theorem-and-rsa)
+
+Performance:
+- 对于 2048 + mini-gmp 能减少约 75% 的耗时。
+- [RSA decryption using CRT: How does it affect the complexity? - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/99357/rsa-decryption-using-crt-how-does-it-affect-the-complexity)
+
+[Use cases and implementations of RSA CRT - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/19814/use-cases-and-implementations-of-rsa-crt)
+
+[Computing p and q from private key - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/11509/computing-p-and-q-from-private-key)
+
+[modular arithmetic - RSA: Does it worth to calculate missing CRT parameters when you have just N, E, D, P, Q? - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/101044/rsa-does-it-worth-to-calculate-missing-crt-parameters-when-you-have-just-n-e)
+
+## Padding
+- [PKCS #1](PKCS%20#1.md) v1.5
+- [PKCS #1](PKCS%20#1.md) v2.0: [Optimal asymmetric encryption padding](https://en.wikipedia.org/wiki/Optimal_asymmetric_encryption_padding) (OAEP)
+
+  [How much safer is RSA-OAEP compared to RSA with PKCS#1 v1.5 padding? - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/47436/how-much-safer-is-rsa-oaep-compared-to-rsa-with-pkcs1-v1-5-padding)
+
+  [James Manger's CCA on RSAES-OAEP | Soreat\_u's Blog](https://blog.soreatu.com/posts/cca-on-rsaes-oaep/)
+
+  - [pwnalone/rsa-oaep-crypto: Implementation of the RSA-OAEP cryptographic algorithm.](https://github.com/pwnalone/rsa-oaep-crypto)
+
+[Why RSA encryption padding is critical -- rdist](https://rdist.root.org/2009/10/06/why-rsa-encryption-padding-is-critical/)
+
+[CWE - CWE-780: Use of RSA Algorithm without OAEP (4.15)](https://cwe.mitre.org/data/definitions/780.html)
+
+[RSA非对称加解密数据填充 - 诚成cnblogs - 博客园](https://www.cnblogs.com/litaoxyz/p/13531911.html)
+
+## Libraries
+C++:
+- GMP
+  - [Heimdal crypto library](https://web.mit.edu/freebsd/head/crypto/heimdal/doc/doxyout/hcrypto/html/)
+    - [heimdal/lib/hcrypto/rsa-gmp.c](https://github.com/heimdal/heimdal/blob/master/lib/hcrypto/rsa-gmp.c)
+    - CRT
+  - [RSA algorithm in C using the GMP library](https://gist.github.com/akosma/865b887f993de462369a04f4e81596b8)
+  - [RSA using gmp](https://gist.github.com/aishraj/4010562)
+
+  Be careful with endianness.
+
+- OpenSSL
+  - [`RSA_public_encrypt`](https://docs.openssl.org/master/man3/RSA_public_encrypt/)
+
+- Windows
+  - [`CryptGenKey`](https://learn.microsoft.com/en-us/windows/win32/api/wincrypt/nf-wincrypt-cryptgenkey)
+  - [doodleincode/winapi-crypto: RSA library for Windows](https://github.com/doodleincode/winapi-crypto)
+
+Rust:
+- [RustCrypto/RSA: RSA implementation in pure Rust](https://github.com/RustCrypto/RSA)
+- [openssl::rsa](https://docs.rs/openssl/latest/openssl/rsa/index.html)
+
+## Tools
+- [RsaCtfTool: RSA attack tool (mainly for ctf) - retrieve private key from weak public key and/or uncipher data](https://github.com/RsaCtfTool/RsaCtfTool)
 
 
 [^understand]: Understanding Cryptography
