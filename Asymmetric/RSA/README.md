@@ -48,6 +48,8 @@ See also [security level](../../Security%20Level.md).
 ### Factoring
 [RSA Factoring Challenge - Wikipedia](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge)
 
+- 2010 [1024-bit RSA encryption cracked by carefully starving CPU of electricity](https://www.engadget.com/2010-03-09-1024-bit-rsa-encryption-cracked-by-carefully-starving-cpu-of-ele.html)
+
 - 2015 [Factoring as a Service](https://eprint.iacr.org/2015/1000.pdf)
   
   > We optimize the CADO-NFS and Msieve implementations of the
@@ -60,6 +62,8 @@ protocols, finding hundreds or thousands of deployed 512-bit RSA keys
 in DNSSEC, HTTPS, IMAP, POP3, SMTP, DKIM, SSH, and PGP.
 
   [512-bit RSA Keys Cracked in Four Hours for only $75 - SoylentNews](https://soylentnews.org/article.pl?sid=15/10/21/0029236)
+
+- 2016 [Default RSA key bitlength should be 3072 - Issue #2080 - certbot/certbot](https://github.com/certbot/certbot/issues/2080)
 
 - 2020 [2048 Bit RSA Keys \[The Call of the Open Sidewalk\]](https://articles.59.ca/doku.php?id=pgpfan:2048)
 
