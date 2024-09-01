@@ -1,9 +1,14 @@
 # [Cryptology](Cryptology.md)
-![](images/Components.png)
-
-- [Kerckhoffs's Principle](Kerckhoffs's%20Principle.md)
-- [Security Level](Security%20Level.md)
-- [Authenticated Encryption](Authenticated%20Encryption.md)
+Type | Function
+--- | ---
+[RNG](#random-number-generation) | $S \rightarrow R$
+[Hash](#hash-functions) | $P \rightarrow H$ or $P \xrightarrow{K} H$
+[Symmetric](#symmetric-cryptography) | $P \xrightarrow{K} C \xrightarrow{K} P$
+[Asymmetric](#asymmetric-cryptography) | $P \xrightarrow{K_e} C \xrightarrow{K_d} P$
+[Functional](#functional-encryption) | $P \xrightarrow{K} C \xrightarrow{K_{f(x)}} f(P)$
+[Homomorphic](#homomorphic-encryption) | $P \xrightarrow{K} C \xrightarrow{f} f(C) \xrightarrow{K} f(P)$
+[Protocol](#cryptographic-protocols) | $P,S \xrightarrow{?} C,H \xrightarrow{?} P \ \text{or}\  f(P)\ \text{or}\ C$
+[Cryptanalysis](#cryptanalysis) | $C \rightarrow P\ $ or $\ C,P \rightarrow K$
 
 ## [Random Number Generation](Random/README.md)
 - [True Random Number Generators](Random/True/README.md)
@@ -11,6 +16,44 @@
   - [Linear Congruential Generator](Random/Pseudo/Linear%20Congruential%20Generator.md)
   - [Linear Feedback Shift Registers](Random/Pseudo/Linear%20Feedback%20Shift%20Registers.md) ([Python](Random/Pseudo/Linear%20Feedback%20Shift%20Registers.ipynb))
   - Cryptographically Secure Pseudorandom Number Generator
+
+## [Hash Functions](Hash/README.md)
+- Universal Hashing
+
+### Checksums
+- Cyclic redundancy checks
+  - CRC-16
+  - CRC-32
+  - CRC-64
+- Internet checksum
+
+### [Non-cryptographic Hash Functions](Hash/Non-cryptographic/README.md)
+- [wyhash](Hash/Non-cryptographic/wyhash.md)
+- xxHash
+
+### Unkeyed Cryptographic Hash Functions
+- [Message-Digest](Hash/Message-Digest/README.md)
+  - MD2
+  - MD4
+  - [MD5](Hash/Message-Digest/MD5.md)
+  - MD6
+- Secure Hash Algorithm
+  - SHA-0
+  - SHA-1
+  - [SHA-2](Hash/Secure/SHA-2.md)
+    - SHA-224
+    - SHA-256
+    - SHA-384
+    - SHA-512
+  - SHA-3 (Keccak)
+
+### [Keyed Cryptographic Hash Functions](Hash/Keyed/README.md)
+- CBC-MAC
+- HMAC
+- MD6
+- One-key MAC
+  - OMAC1 (CMAC)
+  - OMAC2
 
 ## Symmetric Cryptography
 ### Stream Ciphers
@@ -62,49 +105,18 @@
 - Lattice
 - [Key Encapsulation Mechanism](Asymmetric/KEM.md)
 
-## [Hash Functions](Hash/README.md)
-- Universal Hashing
+## [Functional Encryption](Functional/README.md)
 
-### Checksums
-- Cyclic redundancy checks
-  - CRC-16
-  - CRC-32
-  - CRC-64
-- Internet checksum
-
-### [Non-cryptographic Hash Functions](Hash/Non-cryptographic/README.md)
-- [wyhash](Hash/Non-cryptographic/wyhash.md)
-- xxHash
-
-### Unkeyed Cryptographic Hash Functions
-- [Message-Digest](Hash/Message-Digest/README.md)
-  - MD2
-  - MD4
-  - [MD5](Hash/Message-Digest/MD5.md)
-  - MD6
-- Secure Hash Algorithm
-  - SHA-0
-  - SHA-1
-  - [SHA-2](Hash/Secure/SHA-2.md)
-    - SHA-224
-    - SHA-256
-    - SHA-384
-    - SHA-512
-  - SHA-3 (Keccak)
-
-### [Keyed Cryptographic Hash Functions](Hash/Keyed/README.md)
-- CBC-MAC
-- HMAC
-- MD6
-- One-key MAC
-  - OMAC1 (CMAC)
-  - OMAC2
+## [Homomorphic Encryption](Homomorphic/README.md)
 
 ## [Cryptographic Protocols](Protocols/README.md)
+- [Authenticated Encryption](Protocols/Authenticated/README.md)
 - [Internet Protocol Security (IPsec)](Protocols/IP/README.md)
 - [Transport Layer Security (TLS)](Protocols/Transport/README.md)
 - [Messaging Layer Security (MLS)](Protocols/Messaging/README.md)
 - [Man-in-the-Middle Attack](Protocols/MITM.md)
 
 ## Cryptanalysis
+- [Kerckhoffs's Principle](Cryptanalysis/Kerckhoffs.md)
+- [Security Level](Cryptanalysis/Levels.md)
 - [Attack Models](Cryptanalysis/Attack%20Models.md)

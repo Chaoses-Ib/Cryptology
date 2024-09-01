@@ -47,7 +47,7 @@ There is no known weakness for any short or long public exponent $e$ for RSA, as
 The public exponent $e$ is often selected as 65537 or 3.
 - $e$ 是手动选取的常值，很容易猜到，所以才要将 $(n,e)$ 用作公钥，$(n,d)$ 用作私钥。
 
-See also [security level](../../Security%20Level.md).
+See also [security level](../../Cryptanalysis/Levels.md).
 
 ### Factoring
 [RSA Factoring Challenge - Wikipedia](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge)
