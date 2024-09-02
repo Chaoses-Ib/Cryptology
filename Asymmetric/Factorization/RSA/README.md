@@ -47,9 +47,13 @@ There is no known weakness for any short or long public exponent $e$ for RSA, as
 The public exponent $e$ is often selected as 65537 or 3.
 - $e$ 是手动选取的常值，很容易猜到，所以才要将 $(n,e)$ 用作公钥，$(n,d)$ 用作私钥。
 
-See also [security level](../../Cryptanalysis/Levels.md).
+[Seriously, stop using RSA | Trail of Bits Blog](https://blog.trailofbits.com/2019/07/08/fuck-rsa/)
+
+See also [security level](../../../Cryptanalysis/Levels.md).
 
 ### Factoring
+[cc.complexity theory - Is the integer factorization problem harder than RSA factorization: $n = pq$? - Theoretical Computer Science Stack Exchange](https://cstheory.stackexchange.com/questions/6704/is-the-integer-factorization-problem-harder-than-rsa-factorization-n-pq)
+
 [RSA Factoring Challenge - Wikipedia](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge)
 
 - 2010 [1024-bit RSA encryption cracked by carefully starving CPU of electricity](https://www.engadget.com/2010-03-09-1024-bit-rsa-encryption-cracked-by-carefully-starving-cpu-of-ele.html)
@@ -113,7 +117,10 @@ x\cdot (x^{\phi(n)})^t
 
 $$(x^{\phi(n)})^t \cdot x \equiv x \pmod n$$
 
-## Chinese remainder theorem (CRT)
+## Optimizations
+- 2002 Boneh and Shacham, “Fast Variants of RSA.”
+
+### Chinese remainder theorem (CRT)
 [homomorphic encryption - Chinese Remainder Theorem and RSA - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/2575/chinese-remainder-theorem-and-rsa)
 
 Performance:
