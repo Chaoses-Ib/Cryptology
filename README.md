@@ -96,12 +96,14 @@ Type | Function
   - XTEA
   - XXTEA
 
-## Asymmetric Cryptography
+## [Asymmetric Cryptography](Asymmetric/README.md)
 - Integer factorization
   - [RSA (Rivest–Shamir–Adleman)](Asymmetric/RSA/README.md)
     - [PKCS #1](Asymmetric/RSA/PKCS%20%231.md)
 - Discrete logarithm
   - DH
+- [Elliptic-curve](Asymmetric/Elliptic-curve/README.md)
+  - [Edwards-curve Digital Signature Algorithm (EdDSA)](Asymmetric/Elliptic-curve/Edwards/README.md)
 - Lattice
 - [Key Encapsulation Mechanism](Asymmetric/KEM.md)
 

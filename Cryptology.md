@@ -1,5 +1,6 @@
 # Cryptology
 Books:
+- Understanding Cryptography
 - [An intensive introduction to cryptography](https://intensecrypto.org/public/)
 
 ## Libraries

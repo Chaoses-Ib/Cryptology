@@ -163,12 +163,18 @@ C++:
 
 Rust:
 - [RustCrypto/RSA: RSA implementation in pure Rust](https://github.com/RustCrypto/RSA)
+  - ~5500 lines of code excluding tests and dependencies
 - [aws\_lc\_rs::rsa](https://docs.rs/aws-lc-rs/latest/aws_lc_rs/rsa/index.html)
 - [openssl::rsa](https://docs.rs/openssl/latest/openssl/rsa/index.html)
 - [ring::rsa](https://docs.rs/ring/latest/ring/rsa/index.html)
   - [Add RSA key generation - Issue #219 - briansmith/ring](https://github.com/briansmith/ring/issues/219)
   - [question about signing performance - Issue #339 - RustCrypto/RSA](https://github.com/RustCrypto/RSA/issues/339)
   - Used by rustls
+
+JS:
+- [travist/jsencrypt: A zero-dependency Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.](https://github.com/travist/jsencrypt)
+  - ~32000 lines of code
+- [coolaj86/rsa-csr.js: 💯 A focused, zero-dependency RSA library to generate a Certificate Signing Request (CSR) and sign it!](https://github.com/coolaj86/rsa-csr.js/)
 
 ## Tools
 - [RsaCtfTool: RSA attack tool (mainly for ctf) - retrieve private key from weak public key and/or uncipher data](https://github.com/RsaCtfTool/RsaCtfTool)
