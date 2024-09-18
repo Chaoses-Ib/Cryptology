@@ -55,7 +55,7 @@ Type | Function
   - OMAC1 (CMAC)
   - OMAC2
 
-## Symmetric Cryptography
+## [Symmetric Cryptography](Symmetric/README.md)
 ### Stream Ciphers
 #### Ciphers
 - XOR
@@ -76,9 +76,9 @@ Type | Function
   - MICKEY
   - Trivium
 
-### Block Ciphers
+### [Block Ciphers](Symmetric/Block/README.md)
 #### Ciphers
-- AES (Rijndael)
+- [AES (Rijndael)](Symmetric/Block/AES/README.md)
 - Blowfish
   - Twofish
   - Threefish

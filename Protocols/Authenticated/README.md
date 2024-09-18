@@ -19,3 +19,7 @@ $$AEAD(K,P,A)=(C,A,T)$$
   ![](https://upload.wikimedia.org/wikipedia/commons/a/ac/Authenticated_Encryption_MtE.png)
 
 [^wiki]: [Authenticated encryption - Wikipedia](https://en.wikipedia.org/wiki/Authenticated_encryption)
+
+## Libraries
+Rust:
+- [RustCrypto/AEADs: Authenticated Encryption with Associated Data Algorithms: high-level encryption ciphers](https://github.com/RustCrypto/AEADs)
