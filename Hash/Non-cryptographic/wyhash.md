@@ -4,7 +4,7 @@
 > The FASTEST QUALITY hash function, random number generators (PRNG) and hash map.
 
 ## Rust
-[wyhash-rs](https://github.com/eldruin/wyhash-rs/tree/master)
+[wyhash-rs](https://github.com/eldruin/wyhash-rs)
 
 For `u32`:
 ```rust

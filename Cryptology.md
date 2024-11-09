@@ -44,6 +44,10 @@ Books:
 
 - Serde
   - [serde-encrypt: 🔐 Encrypts all the Serialize.](https://github.com/laysakura/serde-encrypt)
+
+    [\[Release\] SerdeEncrypt: public-key, shared-key encryption for any serde::{Serialize, Deserialize} structs : r/rust](https://www.reddit.com/r/rust/comments/nz2mq1/release_serdeencrypt_publickey_sharedkey/)
+
   - [serde-encrypted-value: A crate which wraps Serde deserializers and decrypts values](https://github.com/palantir/serde-encrypted-value)
+  - [Serialize\_with\_password --- Rust data encoding library // Lib.rs](https://lib.rs/crates/serialize-with-password)
 
 [Awesome Rust Cryptography | Showcase of notable cryptography libraries developed in Rust](https://cryptography.rs/)
