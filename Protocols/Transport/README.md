@@ -41,3 +41,6 @@ Rust:
 
 Python:
 - [ssl: TLS/SSL wrapper for socket objects - Python3 Docs](https://docs.python.org/3/library/ssl.html)
+
+## Tools
+- [SSL Server Test (Powered by Qualys SSL Labs)](https://www.ssllabs.com/ssltest/)
