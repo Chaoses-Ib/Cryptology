@@ -27,20 +27,20 @@ Type | Function
   - CRC-64
 - Internet checksum
 
-### [Non-cryptographic Hash Functions](Hash/Non-cryptographic/README.md)
-- [wyhash](Hash/Non-cryptographic/wyhash.md)
+### [Non-cryptographic Hash Functions](Hash/Non-crypto/README.md)
+- [wyhash](Hash/Non-crypto/wyhash.md)
 - xxHash
 
-### Unkeyed Cryptographic Hash Functions
-- [Message-Digest](Hash/Message-Digest/README.md)
+### [Unkeyed Cryptographic Hash Functions](Hash/Crypto/README.md)
+- [Message-Digest](Hash/Crypto/Message-Digest/README.md)
   - MD2
   - MD4
-  - [MD5](Hash/Message-Digest/MD5.md)
+  - [MD5](Hash/Crypto/Message-Digest/MD5.md)
   - MD6
 - Secure Hash Algorithm
   - SHA-0
   - SHA-1
-  - [SHA-2](Hash/Secure/SHA-2.md)
+  - [SHA-2](Hash/Crypto/Secure/SHA-2.md)
     - SHA-224
     - SHA-256
     - SHA-384
