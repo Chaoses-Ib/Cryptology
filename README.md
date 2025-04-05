@@ -39,13 +39,14 @@ Type | Function
   - MD6
 - Secure Hash Algorithm
   - SHA-0
-  - SHA-1
+  - [SHA-1](Hash/Crypto/Secure/SHA-1.md)
   - [SHA-2](Hash/Crypto/Secure/SHA-2.md)
     - SHA-224
     - SHA-256
     - SHA-384
     - SHA-512
   - SHA-3 (Keccak)
+- [BLAKE](Hash/Crypto/BLAKE.md)
 
 ### [Keyed Cryptographic Hash Functions](Hash/Keyed/README.md)
 - CBC-MAC

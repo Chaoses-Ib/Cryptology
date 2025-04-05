@@ -5,15 +5,12 @@ A **hash function** is any function that can be used to map data of arbitrary si
 
 [SMhasher: Hash function quality and speed tests](https://github.com/rurban/smhasher/#smhasher)
 
+[What is the fastest hash algorithm to check if two files are equal? - Stack Overflow](https://stackoverflow.com/questions/1761607/what-is-the-fastest-hash-algorithm-to-check-if-two-files-are-equal)
+
+[Fastest way to create a hash of the contents of a file - help - The Rust Programming Language Forum](https://users.rust-lang.org/t/fastest-way-to-create-a-hash-of-the-contents-of-a-file/102429)
+
 ## Implementations
-Python:
-- [hashlib — Secure hashes and message digests - Python3 Docs](https://docs.python.org/3/library/hashlib.html)
-
-  [File hashing](https://docs.python.org/3/library/hashlib.html#file-hashing) (Python 3.11)
-  
-  [Performance test of MD5, SHA1, SHA256 and SHA512](http://atodorov.org/blog/2013/02/05/performance-test-md5-sha1-sha256-sha512/)
-
-  [Sami Lehtinen - Python hash function performance comparison](https://www.sami-lehtinen.net/blog/python-hash-function-performance-comparison)
+- [→Unkeyed Cryptographic Hash Functions](Crypto/README.md#implementations)
 
 
 [^wiki]: [Hash function - Wikipedia](https://en.wikipedia.org/wiki/Hash_function)
