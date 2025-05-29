@@ -5,6 +5,26 @@
 
 [字节面试官：你觉得HTTPS能防止重放攻击吗？\_Java\_InfoQ写作社区](https://xie.infoq.cn/article/65f3077fac48e688968e636e6)
 
+## Versions
+[Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security#History_and_development)
+
+- TLS 1.2
+  - 2008
+- TLS 1.3
+  - 2018
+
+  [Halfrost-Field/contents/Protocol/TLS\_1.3\_Backward\_Compatibility.md at master - halfrost/Halfrost-Field](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Protocol/TLS_1.3_Backward_Compatibility.md)
+
+  > Support for TLS 1.3 was added to Secure Channel (schannel) for the GA releases of Windows 11 and Windows Server 2022.
+
+  [TLS 1.3：一把打不开旧锁的新钥匙，为何难成主流？\_tlsv1.3 - CSDN博客](https://blog.csdn.net/u013129300/article/details/147806418)
+
+[TLS Protocol Compatibility](https://support.globalsign.com/ssl/general-ssl/tls-protocol-compatibility)
+
+> As of March 2025, the latest versions of all major web browsers support TLS 1.2 and 1.3 and have them enabled by default, with the exception of IE 11. TLS 1.0 and 1.1 are disabled by default on the latest versions of all major browsers.
+
+The incompatibility of newer TLS versions can be used to defense DDoS attack?
+
 ## Libraries
 [Comparison of TLS implementations - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_TLS_implementations)
 
