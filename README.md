@@ -5,10 +5,11 @@ Type | Function
 [Hash](#hash-functions) | $P \rightarrow H$ or $P \xrightarrow{K} H$
 [Symmetric](#symmetric-cryptography) | $P \xrightarrow{K} C \xrightarrow{K} P$
 [Asymmetric](#asymmetric-cryptography) | $P \xrightarrow{K_e} C \xrightarrow{K_d} P$
+[Property-preserving](#property-preserving-encryption) | $P \xrightarrow{K} C \xrightarrow{f} f(P)$
 [Functional](#functional-encryption) | $P \xrightarrow{K} C \xrightarrow{K_{f(x)}} f(P)$
 [Homomorphic](#homomorphic-encryption) | $P \xrightarrow{K} C \xrightarrow{f} f(C) \xrightarrow{K} f(P)$
 [Protocol](#cryptographic-protocols) | $P,S \xrightarrow{?} C,H \xrightarrow{?} P \ \text{or}\  f(P)\ \text{or}\ C$
-[Cryptanalysis](#cryptanalysis) | $C \rightarrow P\ $ or $\ C,P \rightarrow K$
+[Cryptanalysis](#cryptanalysis) | $C \rightarrow P$ or $C,P \rightarrow K$
 
 ## [Random Number Generation](Random/README.md)
 - [True Random Number Generators](Random/True/README.md)
@@ -108,7 +109,12 @@ Type | Function
 - Lattice
 - [Key Encapsulation Mechanism](Asymmetric/KEM.md)
 
+## [Property-preserving Encryption](Property/README.md)
+- [Format-preserving Encryption](Property/Format/README.md)
+- [Order-preserving Encryption](Property/Order/README.md)
+
 ## [Functional Encryption](Functional/README.md)
+- [Order-revealing Encryption](Functional/Order/README.md)
 
 ## [Homomorphic Encryption](Homomorphic/README.md)
 
