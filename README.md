@@ -57,7 +57,7 @@ Type | Function
   - OMAC2
 
 ## [Symmetric Cryptography](Symmetric/README.md)
-### Stream Ciphers
+### [Stream Ciphers](Symmetric/Stream/README.md#stream-ciphers)
 #### Ciphers
 - XOR
 - RC4
