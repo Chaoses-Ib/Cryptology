@@ -59,6 +59,8 @@ Type | Function
 
 ## [Symmetric Cryptography](Symmetric/README.md)
 ### [Stream Ciphers](Symmetric/Stream/README.md#stream-ciphers)
+- [Libraries](Symmetric/Stream/Libraries.typ)
+
 #### Ciphers
 - XOR
 - RC4
@@ -120,6 +122,8 @@ Type | Function
 
 ## [Cryptographic Protocols](Protocols/README.md)
 - [Authenticated Encryption](Protocols/Authenticated/README.md)
+  - [Libraries](Protocols/Authenticated/Libraries.typ)
+  - [ChaCha-Poly1305](Protocols/Authenticated/ChaCha-Poly1305.typ)
 - [Internet Protocol Security (IPsec)](Protocols/IP/README.md)
 - [Transport Layer Security (TLS)](Protocols/Transport/README.md)
 - [Messaging Layer Security (MLS)](Protocols/Messaging/README.md)
