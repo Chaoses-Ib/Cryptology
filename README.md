@@ -62,8 +62,8 @@ Type | Function
 #### Ciphers
 - XOR
 - RC4
-- [Salsa20](Symmetric/Stream/Salsa20/README.md)
-  - [ChaCha](Symmetric/Stream/Salsa20/ChaCha/README.md)
+- [Salsa20](Symmetric/Stream/Salsa/README.typ)
+  - [ChaCha](Symmetric/Stream/Salsa/ChaCha/README.typ)
 - Trivium
 
 [eSTREAM portfolio](https://en.wikipedia.org/wiki/ESTREAM#eSTREAM_portfolio):

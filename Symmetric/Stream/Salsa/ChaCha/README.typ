@@ -1,4 +1,6 @@
-# ChaCha
+#import "@local/ib:0.1.0": *
+#title[ChaCha]
+#md(`
 [The design of Chacha20](https://loup-vaillant.fr/tutorials/chacha20-design) ([Hacker News](https://news.ycombinator.com/item?id=13364424))
 
 [Do the ChaCha: better mobile performance with cryptography](https://blog.cloudflare.com/do-the-chacha-better-mobile-performance-with-cryptography/)
@@ -26,4 +28,5 @@ Python:
 Rust:
 - [RustCrypto/AEADs/chacha20poly1305](https://github.com/RustCrypto/AEADs/tree/master/chacha20poly1305)
 - [orion: Usable, easy and safe pure-Rust crypto](https://github.com/orion-rs/orion)
+`)
 - aws-lc-rs
