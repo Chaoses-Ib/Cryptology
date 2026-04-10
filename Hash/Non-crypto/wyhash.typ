@@ -5,6 +5,10 @@
 #q[
 The FASTEST QUALITY hash function, random number generators (PRNG) and hash map.]
 
+- Used by Zig, V, Nim,
+  Go (fallback on 1.17+),
+  Windows Terminal.
+
 == Rust
 #a[wyhash-rs][https://github.com/eldruin/wyhash-rs]
 
@@ -54,3 +58,20 @@ impl Hasher for WyHashU32 {
     }
 }
 ```
+
+= #a[rapidhash][https://github.com/Nicoshev/rapidhash]
+#a[proposal: runtime: replace wyhash with rapidhash - Issue \#67935 - golang/go][https://github.com/golang/go/issues/67935]
+#q[#md(`
+[hash64.go](https://go.dev/src/runtime/hash64.go) currently implements [wyhash](https://github.com/wangyi-fudan/wyhash)  
+
+wyhash owner recognized [rapidhash](https://github.com/Nicoshev/rapidhash) as the official new version.  
+
+Several measurements showed [rapidhash](https://github.com/Nicoshev/rapidhash) as faster and of better quality than wyhash.  
+
+It is currently the best recomended hash function by both [SMHasher](https://github.com/rurban/smhasher#summary) and [SMHasher3](https://gitlab.com/fwojcik/smhasher3/-/blob/main/results/README.md#passing-hashes)
+
+Integrating [rapidhash](https://github.com/Nicoshev/rapidhash) may be an opportunity to easily improve [hash64.go](https://go.dev/src/runtime/hash64.go) without any drawbacks.  
+`)]
+
+- Rust: #a[hoxxep/rapidhash][https://github.com/hoxxep/rapidhash]
+  - ```rs fast::RandomState``` / ```rs fast::GlobalState```
