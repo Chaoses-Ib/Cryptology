@@ -28,8 +28,8 @@ Type | Function
   - CRC-64
 - Internet checksum
 
-### [Non-cryptographic Hash Functions](Hash/Non-crypto/README.md)
-- [wyhash](Hash/Non-crypto/wyhash.md)
+### [Non-cryptographic Hash Functions](Hash/Non-crypto/README.typ)
+- [wyhash](Hash/Non-crypto/wyhash.typ)
 - xxHash
 
 ### [Unkeyed Cryptographic Hash Functions](Hash/Crypto/README.md)

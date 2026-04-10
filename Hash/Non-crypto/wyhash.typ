@@ -1,10 +1,12 @@
-# wyhash
-[GitHub](https://github.com/wangyi-fudan/wyhash)
+#import "@local/ib:0.1.0": *
+#title[wyhash]
+#a-badge[https://github.com/wangyi-fudan/wyhash]
 
-> The FASTEST QUALITY hash function, random number generators (PRNG) and hash map.
+#q[
+The FASTEST QUALITY hash function, random number generators (PRNG) and hash map.]
 
-## Rust
-[wyhash-rs](https://github.com/eldruin/wyhash-rs)
+== Rust
+#a[wyhash-rs][https://github.com/eldruin/wyhash-rs]
 
 For `u32`:
 ```rust
