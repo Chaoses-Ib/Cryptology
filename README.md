@@ -57,6 +57,9 @@ Type | Function
   - OMAC1 (CMAC)
   - OMAC2
 
+### [Sponge Functions](Hash/Sponge/README.typ)
+- [Ascon](Hash/Sponge/Ascon/README.typ)
+
 ## [Symmetric Cryptography](Symmetric/README.md)
 ### [Stream Ciphers](Symmetric/Stream/README.md#stream-ciphers)
 - [Libraries](Symmetric/Stream/Libraries.typ)

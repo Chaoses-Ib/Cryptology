@@ -22,6 +22,10 @@ A compromise ChaCha12 (based on the eSTREAM recommendation of a 12-round Salsa) 
 The eSTREAM benchmarking suite includes ChaCha8 and ChaCha12.
 ]
 
+= Post-quantum security
+#q[While it is weakened by quantum computers because of Grover's algorithm, it still has enough security margin to be considered "quantum safe".]
+#footnote[#a[stream cipher - Is XChacha20 - Poly1305 Quantum resistant? - Cryptography Stack Exchange][https://crypto.stackexchange.com/questions/79518/is-xchacha20-poly1305-quantum-resistant]]
+
 = Implementations
 Rust:
 - #a[RustCrypto/stream-ciphers/chacha20][https://github.com/RustCrypto/stream-ciphers/tree/master/chacha20]
