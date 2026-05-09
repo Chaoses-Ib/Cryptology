@@ -61,6 +61,8 @@ Type | Function
 - [Ascon](Hash/Sponge/Ascon/README.typ)
 
 ## [Symmetric Cryptography](Symmetric/README.md)
+- [Blocks](Symmetric/Blocks.typ)
+
 ### [Stream Ciphers](Symmetric/Stream/README.md#stream-ciphers)
 - [Libraries](Symmetric/Stream/Libraries.typ)
 
